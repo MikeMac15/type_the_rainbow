@@ -1,0 +1,42 @@
+html {
+  height: 100vh;
+  background-color: rgb(57, 61, 62);
+}
+
+.welcome {
+    background-color: rgb(57, 61, 62);
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+    color: rgb(253, 253, 253);
+}
+
+
+  
+  /* Menu Button Styles */
+  .menuButton {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .menuButton:hover {
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menuButton:active {
+    transform: translateY(1px) scale(0.98);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  }
+  

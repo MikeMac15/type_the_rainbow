@@ -1,0 +1,16 @@
+.currentWord {
+    font-size: 40px;
+
+}
+.prevWord{
+    font-size: 10px;
+}
+.nextWord{
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    color: rgb(57, 61, 62);
+    border: 1px solid black;
+}

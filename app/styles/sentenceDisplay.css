@@ -1,0 +1,11 @@
+.sentenceDisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.current-word {
+    text-decoration: underline;
+    text-decoration-color: coral;
+    font-weight: bold;
+}

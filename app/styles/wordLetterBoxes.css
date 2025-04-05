@@ -1,0 +1,111 @@
+/* .letter-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin: 4px;
+    transition: transform 0.2s ease;
+  }
+  
+  .letter-box:hover {
+    transform: scale(1.1);
+  }
+  
+  .index {
+    background-color: red;
+  }
+  .middle {
+    background-color: goldenrod;
+  }
+  .ring {
+    background-color: greenyellow;
+    color: black; 
+  }
+  .pinkie {
+    background-color: skyblue;
+    color: black;
+  }
+  
+  @media (max-width: 600px) {
+    .letter-box {
+      width: 30px;
+      height: 30px;
+      font-size: 1rem;
+    }
+  }
+   */
+
+   .word-container {
+    margin-bottom: 20px;
+   }
+   .letter-div {
+    background: white;
+    border-radius: 10px;
+    transition: transform .5s ease;
+    margin: 2px;
+  }
+   .letter-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    /* font-weight: bold; */
+    width: 4vw;
+    height: 4vw;
+    border-radius: 8px;
+    /* margin: 2px; */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .default {
+    background-color: #ccc;
+    color: black;
+  }
+  
+  @media (max-width: 600px) {
+    .letter-box {
+      width: 30px;
+      height: 30px;
+      font-size: 1rem;
+    }
+  }
+
+
+  /* Animations */
+
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-4px); }
+    40% { transform: translateX(4px); }
+    60% { transform: translateX(-4px); }
+    80% { transform: translateX(4px); }
+    100% { transform: translateX(0); }
+  }
+  
+  .word-container.shake {
+    animation: shake 0.4s ease;
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 4px;
+  }
+  
+  /* ✅ Correct Word Animation */
+  /* @keyframes pop {
+    0% { transform: scale(1); }
+    30% { transform: scale(1.15); }
+    60% { transform: scale(0.98); }
+    100% { transform: scale(1); }
+  }
+  
+  .word-container.correct {
+    animation: pop 0.4s ease;
+    background-color: rgba(0, 255, 140, 0.1);
+    border-radius: 8px;
+  } */
+  

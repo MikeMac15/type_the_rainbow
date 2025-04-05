@@ -1,0 +1,52 @@
+/* .full-story-display {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+  } */
+  
+  .sentence {
+    margin: 8px 0;
+    color: #b0b0b0;
+    transition: all 0.2s ease;
+  }
+  
+  /* .sentence.active {
+    background: #f0f8ff;
+    border-left: 4px solid #2575fc;
+    padding-left: 12px;
+    font-weight: bold;
+    color: #000;
+  } */
+
+
+  .full-story-display {
+    padding: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .sentence.active {
+    background-color: rgba(0, 128, 255, 0.05);
+    border-left: 3px solid #007aff;
+    padding-left: 10px;
+    margin: 8px 0;
+  }
+  
+
+  .word-span {
+    margin-right: 6px;
+    transition: background-color 0.3s ease;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  
+  .current-word {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .wrong-word {
+    background-color: rgba(255, 0, 0, 0.3);
+  }

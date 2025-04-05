@@ -4,5 +4,6 @@ import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
+  base: '/type_the_rainbow/',
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
 });
